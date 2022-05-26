@@ -36,6 +36,39 @@ header{
     color: rgb(0, 67, 122);
 }
 
+.contact_header{
+    background-image: url(../Assets/buildings_wallpaper.jpg);
+    background-size:100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 350px;
+}
+
+.contact{
+    background-color: rgb(220, 231, 241); 
+    height: 550px;
+    text-align: justify;
+    color: rgb(0, 67, 122);
+}
+
+.send_button{
+    padding-right: 27px;
+    padding-left: 27px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color:rgb(0, 67, 122);
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    float:right;
+}
+
+.send_button:hover{
+    color:rgb(0, 67, 122);
+    background-color: rgb(180, 211, 239);
+}
+
 footer{
     height: 120px;
     background-color: rgb(180, 211, 239);
