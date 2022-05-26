@@ -38,7 +38,7 @@ header{
 
 .contact_header{
     background-image: url(../Assets/buildings_wallpaper.jpg);
-    background-size:100%;
+    background-size:cover;
     background-position: center;
     background-attachment: fixed;
     height: 350px;
@@ -67,6 +67,39 @@ header{
 .send_button:hover{
     color:rgb(0, 67, 122);
     background-color: rgb(180, 211, 239);
+}
+
+.staff_header{
+    background-image: url(../Assets/staff_wallpaper.jpg);
+    background-size:cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 350px;
+}
+
+.staff{
+    background-color: rgb(220, 231, 241); 
+    height: 800px;
+    text-align: justify;
+    color: rgb(0, 67, 122);
+}
+
+.portrait{
+    height: 300px;
+    width: 230px;
+    display: inline-block;
+    margin: auto;
+    padding-top: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.photo{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
+    border: rgb(0, 67, 122);
+    border-radius: 50%;
 }
 
 footer{
