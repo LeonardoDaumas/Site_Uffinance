@@ -1,0 +1,60 @@
+*{
+    margin:0;
+}
+
+header{
+    height: 90px;
+    background-color: rgb(30, 63, 116);
+    margin: 0px;
+    padding: 0px;
+    position: sticky;
+    top:0;
+    display: block;
+}
+
+#white_logo{
+    height: 60px;
+}
+
+.menu_items{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.menu_items:hover{
+    border-bottom: white solid 1px;
+}
+
+.about{
+    background-color: rgb(220, 231, 241); 
+    height: 550px;
+    text-align: justify;
+    color: rgb(0, 67, 122);
+}
+
+footer{
+    height: 120px;
+    background-color: rgb(180, 211, 239);
+    display: block;
+    position: relative;
+    bottom:0;
+    padding-top: 10px
+   
+}
+
+#blue_logo{
+    height: 60px;
+}
+
+#address{
+    color: rgb(0, 67, 122);
+    text-align: left;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
