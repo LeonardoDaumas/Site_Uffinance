@@ -13,9 +13,16 @@
         rel="stylesheet">
     <link href="./Assets/uffinance_icon.png" rel="icon" type="image/png">
     <title>Contato</title>
+
+    <script>
+        function submitForm() {
+            alert("Mensagem enviada com sucesso. Entraremos em contato!")
+        }
+    </script>
+
 </head>
 
-<body id="main">
+<body>
     <header>
         <div style="text-align: center; padding:15px">
             <a href="./index.html">
@@ -57,23 +64,26 @@
                 Para
                 saber mais sobre a liga e o nosso funcionamento, entre em contato!</h2>
             <div style="margin-left:20px; margin-right:20px; height: 373px; width: 450px; float:left;">
-                <form style="box-sizing: borderbox;" action="https://formsubmit.co/leonardodaumasrj@gmail.com" method="POST"> <!---mudar para email do RI-->
+                <form style="box-sizing: borderbox;" action="https://formsubmit.co/leonardodaumasrj@gmail.com"
+                    method="POST">
+                    <!---mudar para email do RI-->
                     <input type="text" name="name" ; placeholder="Nome" ;
                         style="border: rgb(0, 67, 122) solid 1px; border-radius: 6px; padding: 5px; width: 435px; height: 20px; margin-bottom:10px; background-color: rgb(225, 239, 241);">
                     <input type="email" name="email" ; placeholder="Email" ;
                         style="border: rgb(0, 67, 122) solid 1px; border-radius: 6px; padding: 5px; width: 435px; height: 20px; margin-bottom:10px; background-color: rgb(225, 239, 241);">
                     <textarea type="text" ; name="mensagem" ; placeholder="Mensagem" ;
                         style="resize: none; border: rgb(0, 67, 122) solid 1px; border-radius: 6px; padding: 5px; width: 435px; height: 210px; margin-bottom:10px; background-color: rgb(225, 239, 241);"></textarea>
-                    <button type="submit" ; class="send_button"; ta>ENVIAR</button>
+                    <button type="submit" ; class="send_button" onclick="submitForm()">ENVIAR</button>
                     <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="https://leonardodaumas.github.io/Site_Uffinance/contato.html"> <!---mudar para dominio real-->
-
+                    <input type="hidden" name="_next"
+                        value="https://leonardodaumas.github.io/Site_Uffinance/contato.html">
+                    <!---mudar para dominio real-->
                 </form>
             </div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.975685590902!2d-43.1326675!3d-22.9043723!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85b64f0dcdc45035!2sUFFinance%20-%20Liga%20de%20Mercado%20Financeiro%20da%20UFF!5e0!3m2!1spt-BR!2sbr!4v1653589983469!5m2!1spt-BR!2sbr"
-                width="358" height="303" style="border:rgb(0, 67, 122) solid 1px; border-radius: 6px;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade;"></iframe>
+                width="358" height="303" style="border:rgb(0, 67, 122) solid 1px; border-radius: 6px;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade;"></iframe>
             <br>
         </div>
     </section>
